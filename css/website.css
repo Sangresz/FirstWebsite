@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: greenyellow;
+}
+
+h1, h2{
+    font-family: 'Roboto Mono', monospace, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: rgb(38, 76, 202);
+}
+
+a:hover {
+    background-color: black;
+    color: lime;
+}
+
+header{
+    background-color: rgb(3, 29, 8);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    color: lime;
+}
+
+header img{
+    border-radius: 165px;
+    width: 300px;
+    border: 15px solid rgb(40, 74, 34);
+}
+
+main{
+    background-color: greenyellow;
+    max-width: 800px;
+    margin: 20 auto;
+    padding: 10px 20px;
+    border: 3px solid rgb(40, 74, 34);
+}
+
+main h2{
+    font-size: 30px;
+}
+
+main img{
+    max-width: 100%;
+}
+
+footer{
+    background-color: rgb(3, 29, 8);
+    color: lime;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+footer a:hover{
+    opacity: .5;
+    background-color: transparent;
+}
+
+p.caption{
+    color: gray;
+    font-style: italic;
+    margin-top: 0;
+}
